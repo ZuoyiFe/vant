@@ -10,24 +10,25 @@
 
 Vant 是**有赞前端团队**开源的移动端组件库，于 2017 年开源，已持续维护 4 年时间。Vant 对内承载了有赞所有核心业务，对外服务十多万开发者，是业界主流的移动端组件库之一。 <br><br>
 
-目前 Vant 官方提供了 [Vue 2 版本](https://vant-contrib.gitee.io/vant)、[Vue 3 版本](https://vant-contrib.gitee.io/vant/v3)和[微信小程序版本](http://vant-contrib.gitee.io/vant-weapp)，并由社区团队维护 [React 版本](https://github.com/mxdi9i7/vant-react)。
+目前 Vant 官方提供了 [Vue 2 版本](https://vant-contrib.gitee.io/vant/v2)、[Vue 3 版本](https://vant-contrib.gitee.io/vant)和[微信小程序版本](http://vant-contrib.gitee.io/vant-weapp)，并由社区团队维护 [React 版本](https://github.com/mxdi9i7/vant-react)。
 
 ### 版本提示
 
-你当前浏览的是 **Vant 2.x 版本** 的文档，适用于 Vue 2 开发。如果你在使用 Vue 3，请浏览 [Vant 3 文档](https://vant-contrib.gitee.io/vant/v3/)。
+你当前浏览的是 **Vant 2.x 版本** 的文档，适用于 Vue 2 开发。如果你在使用 Vue 3，请浏览 [Vant 3 文档](https://vant-contrib.gitee.io/vant/)。
 
 ### 特性
 
-- 提供 60 多个高质量组件，覆盖移动端各类场景
-- 性能极佳，组件平均体积不到 1kb（min+gzip）
-- 单元测试覆盖率 90%+，提供稳定性保障
-- 完善的中英文文档和示例
-- 支持 Vue 2 & Vue 3
-- 支持按需引入
-- 支持主题定制
-- 支持国际化
-- 支持 TypeScript
-- 支持 SSR
+- 🚀 性能极佳，组件平均体积小于 1KB（min+gzip）
+- 🚀 65+ 个高质量组件，覆盖移动端主流场景
+- 💪 使用 TypeScript 编写，提供完整的类型定义
+- 💪 单元测试覆盖率超过 90%，提供稳定性保障
+- 📖 提供完善的中英文文档和组件示例
+- 📖 提供 Sketch 和 Axure 设计资源
+- 🍭 支持 Vue 2、Vue 3 和微信小程序
+- 🍭 支持主题定制，内置 700+ 个主题变量
+- 🍭 支持按需引入和 Tree Shaking
+- 🍭 支持服务器端渲染
+- 🌍 支持国际化和语言包定制
 
 ### 快速上手
 
@@ -63,11 +64,13 @@ Vant 3 支持现代浏览器以及 Chrome >= 51、iOS >= 10.0（与 Vue 3 一致
 
 | 项目 | 描述 |
 | --- | --- |
-| [3lang3/react-vant](https://github.com/3lang3/react-vant) | 参照 Vant 打造的 React 框架移动端组件库 |
+| [3lang3/react-vant](https://github.com/3lang3/react-vant) | 参照 Vant 打造的 React 移动端组件库 |
 | [mxdi9i7/vant-react](https://github.com/mxdi9i7/vant-react) | 基于 React 和 TS 构建的移动端组件库 |
 | [vant-aliapp](https://github.com/ant-move/Vant-Aliapp) | Vant 支付宝小程序版 |
 | [taroify](https://gitee.com/mallfoundry/taroify) | Vant Taro 版 |
 | [vant-theme](https://github.com/Aisen60/vant-theme) | Vant 在线主题预览工具 |
+| [@antmjs/vantui](https://github.com/antmjs/vantui) | 基于 Vant Weapp 开发的多端组件库，同时支持 Taro 和 React |
+| [@formily/vant](https://github.com/formilyjs/vant) | 基于 Vant 和 Formily 开发的表单解决方案 |
 
 ### 链接
 

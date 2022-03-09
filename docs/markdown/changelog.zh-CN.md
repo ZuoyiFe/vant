@@ -14,7 +14,148 @@ Vant 遵循 [Semver](https://semver.org/lang/zh-CN/) 语义化版本规范。
 - 次版本号：每隔一至二个月发布，包含新特性和较大的功能更新，向下兼容。
 - 主版本号：无固定发布时间，包含不兼容更新。
 
+**维护提示**
+
+- Vant 2 版本已经不再主动迭代新 Feature，如果你仍在使用 Vue 2 & Vant 2，建议尽快进行升级。
+
+- 考虑到仍然有较多用户在使用 Vue 2，我们会对 Vant 2 中影响面较大的 Bug 进行修复，也接受来自社区的 Pull Request，欢迎贡献代码~
+
 ## 更新内容
+
+### [v2.12.44](https://github.com/youzan/vant/compare/v2.12.43...v2.12.44)
+
+`2022-02-14`
+
+**Bug Fixes**
+
+- Sku: 修复 Email 正则表达式导致的潜在安全问题 [#10295](https://github.com/youzan/vant/issues/10295)
+
+### [v2.12.43](https://github.com/youzan/vant/compare/v2.12.39...v2.12.43)
+
+`2022-02-10`
+
+**Feature**
+
+- Cascader: 新增 show-header 属性 [#10201](https://github.com/youzan/vant/issues/10201)
+- CollapseItem: 新增 lazy-render 属性 [#10279](https://github.com/youzan/vant/issues/10279)
+
+**Bug Fixes**
+
+- Icon: 修复使用图片作为图标时水平未对齐的问题 [#10224](https://github.com/youzan/vant/issues/10224)
+
+### [v2.12.42](https://github.com/youzan/vant/compare/v2.12.41...v2.12.42)
+
+`2022-02-07`
+
+**Feature**
+
+- Vant 2 对应的 npm tag 切换为 `latest-v2` [d84d2d](https://github.com/youzan/vant/commit/d84d2d68345bb619ab2544136ca3c763611c729d)
+
+### [v2.12.39](https://github.com/youzan/vant/compare/v2.12.38...v2.12.39)
+
+`2022-01-15`
+
+**Bug Fixes**
+
+- DatetimePicker: 修复边界情况下可能报错的问题 [#10186](https://github.com/youzan/vant/issues/10186)
+- ImagePreview: 修复快速缩放导致预览关闭的问题 [#10191](https://github.com/youzan/vant/issues/10191)
+- NavBar: 修复在 safari 上占位元素高度错误的问题 [#10190](https://github.com/youzan/vant/issues/10190)
+- Tabbar: 修复在 safari 上占位元素高度错误的问题 [#10185](https://github.com/youzan/vant/issues/10185)
+
+### [v2.12.38](https://github.com/youzan/vant/compare/v2.12.37...v2.12.38)
+
+`2022-01-10`
+
+**Feature**
+
+- Slider: 新增 left-button、right-button 插槽 [#10053](https://github.com/youzan/vant/issues/10053)
+
+**Bug Fixes**
+
+- PullRefresh: 修复在个别浏览器上会触发原生回弹效果的问题 [#10090](https://github.com/youzan/vant/issues/10090)
+
+### [v2.12.37](https://github.com/youzan/vant/compare/v2.12.36...v2.12.37)
+
+`2021-12-14`
+
+**Feature**
+
+- ImagePreview: 新增 overlayStyle 选项 [#10043](https://github.com/youzan/vant/issues/10043)
+
+**Bug Fixes**
+
+- DatetimePicker: 修复调用 Picker 实例方法后日期未正确更新的问题 [#10028](https://github.com/youzan/vant/issues/10028)
+
+### [v2.12.36](https://github.com/youzan/vant/compare/v2.12.35...v2.12.36)
+
+`2021-12-05`
+
+**Bug Fixes**
+
+- Calendar: 修复在 Dialog 内使用时出现日期空白的问题 [#9845](https://github.com/youzan/vant/issues/9845) [#9939](https://github.com/youzan/vant/issues/9939)
+- Uploader: 修复图片预览卡顿的问题 [#7307](https://github.com/youzan/vant/issues/7307) [#9953](https://github.com/youzan/vant/issues/9953)
+
+### [v2.12.35](https://github.com/youzan/vant/compare/v2.12.34...v2.12.35)
+
+`2021-11-27`
+
+**Bug Fixes**
+
+- DatetimePicker: 修复未使用 v-model 时 confirm 抛出的值可能出错的问题 [#9938](https://github.com/youzan/vant/issues/9938)
+- Swipe: 修复 iOS 系统下圆角失效的问题 [#9933](https://github.com/youzan/vant/issues/9933) [#9931](https://github.com/youzan/vant/issues/9931)
+
+### [v2.12.34](https://github.com/youzan/vant/compare/v2.12.33...v2.12.34)
+
+`2021-11-24`
+
+**Feature**
+
+- Tabbar: route 模式支持匹配子路由 [#9173](https://github.com/youzan/vant/issues/9173) [#9921](https://github.com/youzan/vant/issues/9921)
+
+**Bug Fixes**
+
+- Swipe: 修复开始滑动时未阻止 touchmove 事件行为的问题 [#9918](https://github.com/youzan/vant/issues/9918)
+
+### [v2.12.33](https://github.com/youzan/vant/compare/v2.12.32...v2.12.33)
+
+`2021-11-16`
+
+**Bug Fixes**
+
+- Picker: 修复 SSR 报错的问题 [#9875](https://github.com/youzan/vant/issues/9875)
+
+### [v2.12.32](https://github.com/youzan/vant/compare/v2.12.31...v2.12.32)
+
+`2021-11-15`
+
+**Feature**
+
+- NoticeBar: 新增 reset 方法 [#9864](https://github.com/youzan/vant/issues/9864)
+- Picker: 支持在桌面端通过鼠标滚轮进行滚动 [#9713](https://github.com/youzan/vant/issues/9713)
+
+**Bug Fixes**
+
+- Field: 修复点击 readonly 的输入框后会触发表单验证的问题 [#9863](https://github.com/youzan/vant/issues/9863)
+- Switch: 修复全局设置 font-size 时样式错误的问题 [#9841](https://github.com/youzan/vant/issues/9841)
+- Tabbar: 修复 before-change 属性在路由模式下不生效的问题 [#9855](https://github.com/youzan/vant/issues/9855)
+
+### [v2.12.31](https://github.com/youzan/vant/compare/v2.12.30...v2.12.31)
+
+`2021-10-30`
+
+**Bug Fixes**
+
+- Field: 修复 textarea 在聚焦和失焦时未重新计算高度的问题 [#9718](https://github.com/youzan/vant/issues/9718)
+- Progress: 修复窗口高度变化时进度条长度错误的问题 [#9757](https://github.com/youzan/vant/issues/9757)
+- 修复 VueConstructor 类型定义冲突的问题 [#9750](https://github.com/youzan/vant/issues/9750)
+
+### [v2.12.30](https://github.com/youzan/vant/compare/v2.12.29...v2.12.30)
+
+`2021-10-14`
+
+**Feature**
+
+- Sku: 支持在留言下方定义描述文案 [#9651](https://github.com/youzan/vant/issues/9651)
 
 ### [v2.12.29](https://github.com/youzan/vant/compare/v2.12.28...v2.12.29)
 

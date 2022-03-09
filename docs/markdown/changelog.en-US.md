@@ -16,6 +16,142 @@ Vant follows [Semantic Versioning 2.0.0](https://semver.org/lang/zh-CN/).
 
 ## Details
 
+### [v2.12.44](https://github.com/youzan/vant/compare/v2.12.43...v2.12.44)
+
+`2022-02-14`
+
+**Bug Fixes**
+
+- utils: isEmail ReDoS [#10295](https://github.com/youzan/vant/issues/10295)
+
+### [v2.12.43](https://github.com/youzan/vant/compare/v2.12.39...v2.12.43)
+
+`2022-02-10`
+
+**Feature**
+
+- Cascader: add show-header prop [#10201](https://github.com/youzan/vant/issues/10201)
+- CollapseItem: add lazy-render prop [#10279](https://github.com/youzan/vant/issues/10279)
+
+**Bug Fixes**
+
+- Icon: remove white space under image when using image URL [#10224](https://github.com/youzan/vant/issues/10224)
+
+### [v2.12.42](https://github.com/youzan/vant/compare/v2.12.41...v2.12.42)
+
+`2022-02-07`
+
+**Feature**
+
+- switch npm tag to `latest-v2` [d84d2d](https://github.com/youzan/vant/commit/d84d2d68345bb619ab2544136ca3c763611c729d)
+
+### [v2.12.39](https://github.com/youzan/vant/compare/v2.12.38...v2.12.39)
+
+`2022-01-15`
+
+**Bug Fixes**
+
+- DatetimePicker: error in some edge cases [#10186](https://github.com/youzan/vant/issues/10186)
+- ImagePreview: incorrectly closed after zooming [#10191](https://github.com/youzan/vant/issues/10191)
+- NavBar: get correct height in mobile safari [#10190](https://github.com/youzan/vant/issues/10190)
+- Tabbar: get correct height in mobile safari [#10185](https://github.com/youzan/vant/issues/10185)
+
+### [v2.12.38](https://github.com/youzan/vant/compare/v2.12.37...v2.12.38)
+
+`2022-01-10`
+
+**Feature**
+
+- Slider: add left-button and right-button slots [#10053](https://github.com/youzan/vant/issues/10053)
+
+**Bug Fixes**
+
+- PullRefresh: may trigger browser bounce in some cases [#10090](https://github.com/youzan/vant/issues/10090)
+
+### [v2.12.37](https://github.com/youzan/vant/compare/v2.12.36...v2.12.37)
+
+`2021-12-14`
+
+**Feature**
+
+- ImagePreview: add overlayStyle option [#10043](https://github.com/youzan/vant/issues/10043)
+
+**Bug Fixes**
+
+- DatetimePicker: should update value after calling picker methods [#10028](https://github.com/youzan/vant/issues/10028)
+
+### [v2.12.36](https://github.com/youzan/vant/compare/v2.12.35...v2.12.36)
+
+`2021-12-05`
+
+**Bug Fixes**
+
+- Calendar: date is empty when `poppable = fasle` in dialog [#9845](https://github.com/youzan/vant/issues/9845) [#9939](https://github.com/youzan/vant/issues/9939)
+- Uploader: preview is slow when sum of images size be bigger [#7307](https://github.com/youzan/vant/issues/7307) [#9953](https://github.com/youzan/vant/issues/9953)
+
+### [v2.12.35](https://github.com/youzan/vant/compare/v2.12.34...v2.12.35)
+
+`2021-11-27`
+
+**Bug Fixes**
+
+- DatetimePicker: fix incorrect confirm value when v-model is not used [#9938](https://github.com/youzan/vant/issues/9938)
+- Swipe: incorrect border radius in iOS safari [#9933](https://github.com/youzan/vant/issues/9933) [#9931](https://github.com/youzan/vant/issues/9931)
+
+### [v2.12.34](https://github.com/youzan/vant/compare/v2.12.33...v2.12.34)
+
+`2021-11-24`
+
+**Feature**
+
+- Tabbar: support highlight with child route [#9173](https://github.com/youzan/vant/issues/9173) [#9921](https://github.com/youzan/vant/issues/9921)
+
+**Bug Fixes**
+
+- DatetimePicker: fix incorrect confirm value when v-model is not used [#9913](https://github.com/youzan/vant/issues/9913)
+- Swipe: should prevent touchmove event when swiping [#9918](https://github.com/youzan/vant/issues/9918)
+
+### [v2.12.33](https://github.com/youzan/vant/compare/v2.12.32...v2.12.33)
+
+`2021-11-16`
+
+**Bug Fixes**
+
+- Picker: SSR broken [#9875](https://github.com/youzan/vant/issues/9875)
+
+### [v2.12.32](https://github.com/youzan/vant/compare/v2.12.31...v2.12.32)
+
+`2021-11-15`
+
+**Feature**
+
+- NoticeBar: add reset method [#9864](https://github.com/youzan/vant/issues/9864)
+- Picker: support mouse wheel on desktop browser [#9713](https://github.com/youzan/vant/issues/9713)
+
+**Bug Fixes**
+
+- Field: should not trigger validation after blurring readonly input [#9863](https://github.com/youzan/vant/issues/9863)
+- Switch: switch node inherit font-size [#9841](https://github.com/youzan/vant/issues/9841)
+- Tabbar: before-change not work in route mode [#9855](https://github.com/youzan/vant/issues/9855)
+
+### [v2.12.31](https://github.com/youzan/vant/compare/v2.12.30...v2.12.31)
+
+`2021-10-30`
+
+**Bug Fixes**
+
+- Field: adjust textarea size when focus/blur [#9718](https://github.com/youzan/vant/issues/9718)
+- Progress: should resize when window size changed [#9757](https://github.com/youzan/vant/issues/9757)
+- fix VueConstructor type conflict [#9750](https://github.com/youzan/vant/issues/9750)
+
+### [v2.12.30](https://github.com/youzan/vant/compare/v2.12.29...v2.12.30)
+
+`2021-10-14`
+
+**Feature**
+
+- Sku: add message extra desc [#9651](https://github.com/youzan/vant/issues/9651)
+
 ### [v2.12.29](https://github.com/youzan/vant/compare/v2.12.28...v2.12.29)
 
 `2021-09-22`
@@ -213,7 +349,7 @@ Vant follows [Semantic Versioning 2.0.0](https://semver.org/lang/zh-CN/).
 
 **Bug Fixes**
 
-- Field: should not reset validation after blured [#8412](https://github.com/youzan/vant/issues/8412)
+- Field: should not reset validation after blurred [#8412](https://github.com/youzan/vant/issues/8412)
 - Tabs: fix incorrect horizontal slip judgment [#8387](https://github.com/youzan/vant/issues/8387)
 
 ### [v2.12.10](https://github.com/youzan/vant/compare/v2.12.9...v2.12.10)

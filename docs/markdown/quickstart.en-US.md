@@ -5,11 +5,11 @@
 ### npm
 
 ```bash
-# Install Vant 2 for Vue 2 project
+# Install latest Vant for Vue 3 project
 npm i vant -S
 
-# Install Vant 3 for Vue 3 project
-npm i vant@next -S
+# Install Vant 2 for Vue 2 project
+npm i vant@latest-v2 -S
 ```
 
 ### CDN
@@ -42,11 +42,20 @@ The easiest way to use Vant is to include a CDN link in the html file, after whi
 </script>
 ```
 
+#### Free CDN
+
 You can use Vant through these free CDN services:
 
 - [jsdelivr](https://www.jsdelivr.com/package/npm/vant)
 - [cdnjs](https://cdnjs.com/libraries/vant)
 - [unpkg](https://unpkg.com/)
+
+Note: Free CDN is generally used for making prototypes or personal projects. It is not recommended to use free CDN in production environment.
+
+For enterprise developers, we recommend:
+
+- install with npm, use build tools to bundle it
+- download the scripts, host it on your own server
 
 ### CLI
 

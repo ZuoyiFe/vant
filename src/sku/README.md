@@ -227,7 +227,8 @@ sku: {
       name: 'Message',
       type: 'text',
       required: '1'，
-      placeholder: ''
+      placeholder: '',
+      extraDesc: ''
     }
   ],
   hide_stock: false,
@@ -327,7 +328,7 @@ customStepperConfig: {
   handleStepperChange: currentValue => {},
   // stock
   stockNum: 1999,
-  // stock fomatter
+  // stock formatter
   stockFormatter: stockNum => {},
 }
 ```

@@ -3,7 +3,7 @@ module.exports = {
   build: {
     skipInstall: ['lazyload'],
     site: {
-      publicPath: process.env.PUBLIC_PATH || '/vant/',
+      publicPath: process.env.PUBLIC_PATH || '/vant/v2',
     },
     vetur: {
       tagPrefix: 'van-',
@@ -25,7 +25,7 @@ module.exports = {
     },
     locales: {
       'zh-CN': {
-        title: 'Vant',
+        title: 'Vant 2',
         description: '轻量、可靠的移动端组件库',
         logo: 'https://img01.yzcdn.cn/vant/logo.png',
         langLabel: '中文',
@@ -443,7 +443,7 @@ module.exports = {
         ],
       },
       'en-US': {
-        title: 'Vant',
+        title: 'Vant 2',
         description: 'Mobile UI Components built on Vue',
         logo: 'https://img01.yzcdn.cn/vant/logo.png',
         langLabel: 'En',

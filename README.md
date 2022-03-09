@@ -29,25 +29,26 @@
 
 ## Features
 
-- 65+ Reusable components
-- 1kb Component average size (min+gzip)
-- 90%+ Unit test coverage
-- Extensive documentation and demos
-- Support Vue 2 & Vue 3
-- Support Tree Shaking
-- Support Custom Theme
-- Support i18n
-- Support TS
-- Support SSR
+- 🚀 1KB Component average size (min+gzip)
+- 🚀 65+ High quality components
+- 💪 90%+ Unit test coverage
+- 💪 Written in TypeScript
+- 📖 Extensive documentation and demos
+- 📖 Provide Sketch and Axure design resources
+- 🍭 Support Vue 2 & Vue 3
+- 🍭 Support Tree Shaking
+- 🍭 Support Custom Theme
+- 🍭 Support i18n
+- 🌍 Support SSR
 
 ## Install
 
 ```bash
-# Install Vant 2 for Vue 2 project
+# Install latest Vant for Vue 3 project
 npm i vant -S
 
-# Install Vant 3 for Vue 3 project
-npm i vant@next -S
+# Install Vant 2 for Vue 2 project
+npm i vant@latest-v2 -S
 ```
 
 ## Quickstart
@@ -86,11 +87,13 @@ Vant 3 supports modern browsers and Chrome >= 51、iOS >= 10.0 (same as Vue 3).
 
 | Project | Description |
 | --- | --- |
-| [3lang3/react-vant](https://github.com/3lang3/react-vant) | React mobile UI Components base on Vant |
+| [3lang3/react-vant](https://github.com/3lang3/react-vant) | React mobile UI Components based on Vant |
 | [mxdi9i7/vant-react](https://github.com/mxdi9i7/vant-react) | Mobile UI Components built on React and TS, inspired by Vant |
 | [vant-aliapp](https://github.com/ant-move/Vant-Aliapp) | Alipay MiniProgram UI |
 | [taroify](https://gitee.com/mallfoundry/taroify) | Vant Taro |
-| [vant-theme](https://github.com/Aisen60/vant-theme) | online theme preview built on Vant UI |
+| [vant-theme](https://github.com/Aisen60/vant-theme) | Online theme preview built on Vant UI |
+| [@antmjs/vantui](https://github.com/antmjs/vantui) | Mobile UI Components based on Vant, supporting Taro and React |
+| [@formily/vant](https://github.com/formilyjs/vant) | Form solution based on Vant and Formily |
 
 ## Links
 
