@@ -2210,8 +2210,8 @@
 
 "@z-common/vant-cli@^2.11.5":
   version "2.11.5"
-  resolved "https://npm.zuoshouyisheng.com/@z-common%2fvant-cli/-/vant-cli-2.11.5.tgz#73410c4fb75169985bd60624e69a3958f6cd9b37"
-  integrity sha512-eThmgi3NkB6BTgWA3ZqFt8jPNBY3QaXAo/hmzDQ2147OjkG47cUaK+QzvSlsfx34uSrtn1dRgA4F1tRVnyJ48Q==
+  resolved "https://npm.zuoshouyisheng.com/@z-common%2fvant-cli/-/vant-cli-2.11.5.tgz#cbc8be0b2ac9cd9d505d9d2bb0556dda70524f58"
+  integrity sha512-FEJFLzsh7a4E3cePUBIwwkdhLy0g1qmyEhss0NHc62A3VjNiENb8NJ/lQgAr+9/IlZXbslkF6Meqo/dAmtHmUw==
   dependencies:
     "@babel/core" "7.10.1"
     "@babel/plugin-syntax-jsx" "7.10.1"
