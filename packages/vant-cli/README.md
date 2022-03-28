@@ -21,10 +21,10 @@ npx create-vant-cli-app
 
 ```shell
 # 通过 npm 安装
-npm i @vant/cli -D
+npm i @z-common/vant-cli -D
 
 # 通过 yarn 安装
-yarn add @vant/cli --dev
+yarn add @z-common/vant-cli --dev
 ```
 
 安装完成后，请将以下配置添加到 package.json 文件中

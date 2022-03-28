@@ -84,7 +84,7 @@ export const baseConfig: WebpackConfig = {
       },
       {
         test: /\.(js|ts|jsx|tsx)$/,
-        exclude: /node_modules\/(?!(@vant\/cli))/,
+        exclude: /node_modules\/(?!(@z-common\/vant-cli))/,
         use: [CACHE_LOADER, 'babel-loader'],
       },
       {
@@ -112,7 +112,7 @@ export const baseConfig: WebpackConfig = {
       },
       {
         test: /\.md$/,
-        use: [CACHE_LOADER, VUE_LOADER, '@vant/markdown-loader'],
+        use: [CACHE_LOADER, VUE_LOADER, '@z-common/vant-markdown-loader'],
       },
     ],
   },

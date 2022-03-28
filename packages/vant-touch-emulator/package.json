@@ -1,5 +1,5 @@
 {
-  "name": "@vant/touch-emulator",
+  "name": "@z-common/vant-touch-emulator",
   "version": "1.2.0",
   "description": "Vant touch emulator",
   "main": "index.js",
@@ -7,5 +7,5 @@
     "access": "public"
   },
   "license": "MIT",
-  "repository": "https://github.com/youzan/vant/tree/dev/packages/vant-touch-emulator"
+  "repository": ""
 }

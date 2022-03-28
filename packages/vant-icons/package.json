@@ -1,5 +1,5 @@
 {
-  "name": "@vant/icons",
+  "name": "@z-common/vant-icons",
   "version": "1.5.0",
   "description": "vant icons",
   "main": "./src/config.js",
@@ -8,7 +8,7 @@
   ],
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.zuoshouyisheng.com/"
   },
   "scripts": {
     "export": "node ./build/export.js",
@@ -16,7 +16,7 @@
     "release": "npm run build && release-it"
   },
   "license": "MIT",
-  "repository": "https://github.com/youzan/vant/tree/dev/packages/vant-icons",
+  "repository": "",
   "devDependencies": {
     "fast-glob": "^3.2.2",
     "fs-extra": "^9.0.1",
@@ -31,7 +31,7 @@
   "release-it": {
     "git": {
       "tag": false,
-      "commitMessage": "chore: release @vant/icons ${version}",
+      "commitMessage": "chore: release @z-common/vant-icons ${version}",
       "addUntrackedFiles": true,
       "requireCleanWorkingDir": false
     }

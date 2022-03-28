@@ -1,11 +1,11 @@
-# @vant/popperjs
+# @z-common/vant-popperjs
 
 @popperjs/core in commonjs format, added Object.assign polyfill.
 
 ## Install
 
 ```shell
-yarn add @vant/popperjs
+yarn add @z-common/vant-popperjs
 ```
 
 ## Usage

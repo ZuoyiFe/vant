@@ -1,5 +1,5 @@
 {
-  "name": "@vant/waterfall",
+  "name": "@z-common/vant-waterfall",
   "version": "1.0.2",
   "description": "vant waterfall component",
   "main": "lib/index.js",
@@ -11,7 +11,7 @@
     "release": "npm run build && npm publish"
   },
   "license": "MIT",
-  "repository": "https://github.com/youzan/vant/tree/dev/packages/vant-waterfall",
+  "repository": "",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",

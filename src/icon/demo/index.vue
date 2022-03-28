@@ -82,7 +82,7 @@
 </template>
 
 <script>
-import icons from '@vant/icons';
+import icons from '@z-common/vant-icons';
 import { RED } from '../../utils/constant';
 
 // from https://30secondsofcode.org

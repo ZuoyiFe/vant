@@ -1,13 +1,14 @@
 {
-  "name": "@vant/markdown-loader",
+  "name": "@z-common/vant-markdown-loader",
   "version": "2.5.1",
   "description": "Simple and fast vue markdown loader",
   "main": "src/index.js",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.zuoshouyisheng.com/"
   },
   "license": "MIT",
-  "repository": "https://github.com/youzan/vant/tree/dev/packages/vant-markdown-loader",
+  "repository": "",
   "dependencies": {
     "front-matter": "^3.0.2",
     "highlight.js": "^10.0.0",

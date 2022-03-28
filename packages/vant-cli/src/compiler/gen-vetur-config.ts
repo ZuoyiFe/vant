@@ -1,4 +1,4 @@
-import markdownVetur from '@vant/markdown-vetur';
+import markdownVetur from '@z-common/vant-markdown-vetur';
 import { get } from 'lodash';
 import {
   SRC_DIR,
